@@ -1,0 +1,60 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and font family for the whole page */
+body {
+  background-color: #333; /* Dark background color */
+  font-family: Arial, sans-serif; /* Choose your preferred font family */
+  color: #fff; /* Text color */
+}
+
+/* Style the header */
+header {
+  background-color: #000; /* Dark header background color */
+  padding: 20px; /* Add some padding to the header */
+  text-align: center; /* Center-align the content */
+}
+
+h1 {
+  font-size: 36px; /* Adjust the font size as needed */
+  margin-bottom: 10px; /* Add some space below the heading */
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #222; /* Dark navigation background color */
+}
+
+ul {
+  list-style: none; /* Remove the default list style */
+  padding: 0;
+}
+
+li {
+  display: inline-block; /* Display menu items horizontally */
+  margin-right: 20px; /* Add spacing between menu items */
+}
+
+a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #fff; /* Link color */
+}
+
+/* Style the main content area */
+.main-content {
+  padding: 20px; /* Add padding to the main content */
+}
+
+/* Style the footer */
+footer {
+  background-color: #000; /* Dark footer background color */
+  padding: 10px; /* Add some padding to the footer */
+  text-align: center; /* Center-align the content */
+  color: #fff; /* Text color in the footer */
+}
