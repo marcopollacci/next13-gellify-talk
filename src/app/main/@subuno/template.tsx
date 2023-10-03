@@ -2,7 +2,7 @@
 import * as React from 'react'
 
 export default function Template({ children}: { children: React.ReactNode }) {
-    const [state, setState] = React.useState<number | null>(null);
+    const [_state, setState] = React.useState<number | null>(null);
     React.useEffect(() => {
         setState(Date.now())
     }, [])

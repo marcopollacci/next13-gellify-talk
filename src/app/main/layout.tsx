@@ -1,5 +1,4 @@
-import Link from 'next/link';
-
+  
 interface MainLayoutProps {
     children: React.ReactNode;
     subuno: React.ReactNode;
@@ -16,7 +15,6 @@ export default function MainLayout(props: MainLayoutProps) {
             <br />
             {props.subdue}
             <br />
-            <div style={{textDecoration: 'underline'}}><Link href="/intercept">Render intercept url</Link></div>
             <br />
         </>
     )

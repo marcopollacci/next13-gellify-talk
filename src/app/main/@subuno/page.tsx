@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import ClientComponent from './_client-component/client-component';
 
 export default function Page() {
@@ -5,6 +6,8 @@ export default function Page() {
         <>
             <p>Pagina sub 1</p>
             <ClientComponent />
+            <br />
+            <div style={{textDecoration: 'underline'}}><Link href="/intercept">Render intercept url</Link></div>
         </>
     )
 }
