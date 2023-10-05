@@ -11,9 +11,9 @@ export default function MainLayout(props: MainLayoutProps) {
             <p>Layout component was created at {Date.now()}</p>
             {props.children}
             <br />
-            {props.subuno}
-            <br />
             {props.subdue}
+            <br />
+            {props.subuno}
             <br />
             <br />
         </>

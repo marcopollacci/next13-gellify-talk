@@ -7,7 +7,7 @@ export default function Page() {
             <p>Pagina sub 1</p>
             <ClientComponent />
             <br />
-            <div style={{textDecoration: 'underline'}}><Link href="/intercept">Render intercept url</Link></div>
+            <div style={{marginTop: '10px', textDecoration: 'underline'}}><Link href="/intercept">Render intercept url</Link></div>
         </>
     )
 }
